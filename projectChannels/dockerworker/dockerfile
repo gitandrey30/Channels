@@ -1,0 +1,7 @@
+FROM python3.10-alpline
+
+WORKDIR ./app
+
+COPY less.py .
+
+CMD ["python", "less.py"]
